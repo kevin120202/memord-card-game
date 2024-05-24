@@ -27,7 +27,7 @@ function App() {
     return (
         <div>
             <Header score={score} bestScore={bestScore} tries={tries} />
-            <GameContent pokemons={pokemons} />
+            <GameContent pokemons={pokemons} score={score} setScore={setScore} bestScore={bestScore} setBestScore={setBestScore} tries={tries} setTries={setTries} />
         </div>
     )
 }

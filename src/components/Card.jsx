@@ -15,10 +15,10 @@ export default function Card(props) {
         }
 
         fetchPokemon()
-    }, [pokemonImg])
+    }, [props.pokemon.name])
 
     return (
-        <button className="card">
+        <button className="card" onClick={() => props.onClick(props.pokemon.name)}>
             <img className="pokemon-img" src={pokemonImg} alt={props.pokemon.name} />
             <p className="pokemon-name">{props.pokemon.name}</p>
         </button>

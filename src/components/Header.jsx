@@ -10,7 +10,7 @@ export default function Header(props) {
                 <p>Score: <span>{props.score}</span></p>
                 <p>High Score: <span>{props.bestScore}</span></p>
             </div>
-            <p>{props.tries}/5</p>
+            <p>{props.tries}/2</p>
         </header>
     )
 }

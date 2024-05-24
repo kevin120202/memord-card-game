@@ -3,10 +3,15 @@ body {
     background-size: cover;
     margin: 0;
     box-sizing: border-box;
+    font-size: 1.5rem;
+}
+
+h1,
+p {
+    margin-bottom: .01em;
 }
 
 header {
-    border: 1px solid black;
     text-align: center;
 }
 
@@ -22,9 +27,9 @@ header div {
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 5em;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .card {
