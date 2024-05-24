@@ -1,0 +1,47 @@
+body {
+    background: url("./src/assets/pokemon-bg.png") no-repeat 50% fixed;
+    background-size: cover;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    border: 1px solid black;
+    text-align: center;
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+/* card */
+
+.cards-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 5em;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    cursor: pointer;
+    background-color: #0003;
+    border: none;
+    border-radius: 5px;
+    height: 300px;
+    width: 200px;
+}
+
+.pokemon-img {
+    width: 80%;
+}
+
+.pokemon-name {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
